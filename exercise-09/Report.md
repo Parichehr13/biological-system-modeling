@@ -1,5 +1,4 @@
-# Exercise 09 Report
-
+# Exercise 09
 ## Title
 Chaotic Dynamics Analysis of Lorenz and Rossler Systems
 
