@@ -57,27 +57,27 @@ The matrix `A` is formed from `Rsa`, `Rsv`, `Csa`, `Csv`, `Cra`, and `Kr`.
 ## Results
 
 ### 1. Systemic Arterial Pressure
-![Systemic arterial pressure](systemic%20arterial%20pressure.jpg)
+![Systemic arterial pressure](figures/systemic%20arterial%20pressure.jpg)
 
 Arterial pressure decays from 150 mmHg toward a steady value near 118.5 mmHg. The three curves (Euler, Eigenvectors, Exponential) are nearly superimposed, with only tiny visual differences during the early transient.
 
 ### 2. Systemic Venous Pressure
-![Systemic venous pressure](Systemic%20Venous%20pressure.jpg)
+![Systemic venous pressure](figures/Systemic%20Venous%20pressure.jpg)
 
 Venous pressure rises from 5.0 mmHg to approximately 5.93 mmHg and stabilizes. Agreement among the three methods remains excellent over the full simulation.
 
 ### 3. Right Atrial Pressure
-![Right atrial pressure](right%20atrial%20pressure.jpg)
+![Right atrial pressure](figures/right%20atrial%20pressure.jpg)
 
 Right atrial pressure increases from 4.0 mmHg to approximately 4.74 mmHg, with smooth first-order-like convergence. Euler, eigenvector, and matrix exponential solutions overlap closely.
 
 ### 4. Cardiac Output
-![Cardiac output](cardiac%20output.jpg)
+![Cardiac output](figures/cardiac%20output.jpg)
 
 Since `q = Kr*Pra`, cardiac output increases from about 83.3 mL/s to approximately 98.7 mL/s as `Pra` rises to its steady value.
 
 ### 5. Filling Volume
-![Filling volume](fuilling%20volume.jpg)
+![Filling volume](figures/fuilling%20volume.jpg)
 
 Total filling volume remains essentially constant at about 1279 mL, as expected when no external inflow/outflow perturbation is applied (`Ii = 0`). Minor fluctuations are numerical-scale and negligible.
 
@@ -98,3 +98,4 @@ Main outcomes:
 3. Total filling volume is conserved in the no-perturbation case.
 
 These results provide a solid foundation for subsequent exercises involving control inputs or physiological feedback mechanisms.
+

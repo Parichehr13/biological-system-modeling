@@ -61,7 +61,7 @@ with:
 ## Results
 
 ### 1. Systemic Arterial Pressure
-![Systemic arterial pressure](Systemic%20arterial%20pressure.jpg)
+![Systemic arterial pressure](figures/Systemic%20arterial%20pressure.jpg)
 
 - Uncontrolled (blue): pressure drops from ~100 mmHg to ~52 mmHg.
 - Controlled (red): pressure decreases less severely and stabilizes around ~75-76 mmHg.
@@ -69,7 +69,7 @@ with:
 The controller substantially improves perfusion pressure during and after hemorrhage.
 
 ### 2. Systemic Venous Pressure
-![Systemic venous pressure](Systemic%20venous%20pressure.jpg)
+![Systemic venous pressure](figures/Systemic%20venous%20pressure.jpg)
 
 - Uncontrolled: stabilizes near ~3.43 mmHg.
 - Controlled: settles lower, near ~2.80 mmHg.
@@ -77,7 +77,7 @@ The controller substantially improves perfusion pressure during and after hemorr
 Lower venous pressure in the controlled case is consistent with altered flow distribution and increased pumping effectiveness.
 
 ### 3. Right Atrial Pressure
-![Right atrial pressure](Rigth%20atrial%20pressure.jpg)
+![Right atrial pressure](figures/Rigth%20atrial%20pressure.jpg)
 
 - Uncontrolled: final level near ~2.93 mmHg.
 - Controlled: lower final level near ~2.13 mmHg.
@@ -85,7 +85,7 @@ Lower venous pressure in the controlled case is consistent with altered flow dis
 With higher `Kr`, the controlled model supports stronger outflow from right atrial compartment.
 
 ### 4. Cardiac Output
-![Cardiac output](Cardiac%20output.jpg)
+![Cardiac output](figures/Cardiac%20output.jpg)
 
 - Uncontrolled: falls to ~42 mL/s.
 - Controlled: recovers and stabilizes near ~56 mL/s.
@@ -93,17 +93,17 @@ With higher `Kr`, the controlled model supports stronger outflow from right atri
 The control law improves output significantly compared with the no-control baseline.
 
 ### 5. Systemic Filling Volume
-![Systemic filling volume](Systemic%20filling%20volume.jpg)
+![Systemic filling volume](figures/Systemic%20filling%20volume.jpg)
 
 Both curves overlap almost perfectly and drop from ~1080 mL to ~680 mL, matching imposed hemorrhage magnitude (400 mL). Controller action does not replace lost volume.
 
 ### 6. Systemic Arterial Resistance
-![Systemic arterial resistance](Systemic%20arterial%20resistance.jpg)
+![Systemic arterial resistance](figures/Systemic%20arterial%20resistance.jpg)
 
 `Rsa` rises from baseline `Rsa0 ~ 1.14` to about `1.31 mmHg*s/mL`, while no-control reference remains constant. This resembles vasoconstrictive compensation.
 
 ### 7. Cardiac Factor (k)
-![Cardiac factor](Cardiac%20factor%20(k).jpg)
+![Cardiac factor](figures/Cardiac%20factor%20(k).jpg)
 
 `Kr` increases strongly from `Kr0 ~ 38` to about `178-180 mL/(s*mmHg)`, supporting cardiac output recovery despite reduced volume.
 
@@ -124,3 +124,4 @@ Main outcomes:
 3. Filling volume trajectory is unchanged by control and follows hemorrhage input exactly.
 
 The results provide a strong controlled-vs-uncontrolled baseline for subsequent cardiovascular regulation analyses.
+

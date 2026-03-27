@@ -39,12 +39,12 @@ and analytical response:
 ## Results
 
 ### 1. Step Input: Theoretical vs Numerical
-![Step response comparison](1.jpg)
+![Step response comparison](figures/1.jpg)
 
 The analytical (solid) and Euler (dashed) curves are nearly indistinguishable throughout the simulation window, indicating high numerical accuracy with `dt = 0.1 ms`. The voltage rises monotonically from `-50 mV` toward the predicted steady-state `-25 mV`, with expected first-order kinetics governed by `tau = 30 ms`.
 
 ### 2. Sinusoidal Input Response
-![Sinusoidal input response](2.jpg)
+![Sinusoidal input response](figures/2.jpg)
 
 Under 10 Hz sinusoidal current stimulation, the membrane voltage oscillates around the resting level with clear attenuation relative to the input-driven equilibrium term `E0 + r*i(t)`. After a short transient, the response becomes periodic and stable, consistent with a linear first-order low-pass system.
 
@@ -66,3 +66,4 @@ The provided simulations successfully characterize a first-order membrane model 
 2. Low-pass, attenuated, and phase-delayed voltage oscillations under sinusoidal forcing.
 
 Overall, the results are internally consistent and aligned with expected first-order electrophysiological dynamics.
+
