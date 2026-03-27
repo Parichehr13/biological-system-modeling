@@ -1,4 +1,4 @@
-# Exercise 03 Report
+# Exercise 03
 
 ## Title
 Systemic Circulation Model: Numerical and Analytical Solution Consistency
