@@ -1,4 +1,4 @@
-# Exercise 06 Report
+# Exercise 06
 
 ## Title
 Lumped-Parameter Respiratory Mechanics Simulation Under Spontaneous Breathing
