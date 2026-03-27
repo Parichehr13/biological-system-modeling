@@ -1,4 +1,4 @@
-# Exercise 08 Report
+# Exercise 08
 
 ## Title
 Integrated CO2/O2 Gas Exchange and Ventilatory Control: Baseline and Chemoreflex-Active Simulations
