@@ -52,27 +52,27 @@ This represents a constant hemorrhage rate during the middle interval.
 ## Results
 
 ### 1. Systemic Arterial Pressure
-![Systemic arterial pressure](Systemic arterial pressure.jpg)
+![Systemic arterial pressure](Systemic%20arterial%20pressure.jpg)
 
 `Psa` remains near 100 mmHg before hemorrhage, then decreases almost linearly during blood loss to about 52-53 mmHg. After hemorrhage stops, it settles quickly with minimal rebound.
 
 ### 2. Systemic Venous Pressure
-![Systemic venous pressure](Systemic venous pressure.jpg)
+![Systemic venous pressure](Systemic%20venous%20pressure.jpg)
 
 `Psv` drops from about 5.0 mmHg to about 3.37 mmHg during hemorrhage, then shows a small recovery and stabilizes near 3.43 mmHg.
 
 ### 3. Right Atrial Pressure
-![Right atrial pressure](Right atrial pressure.jpg)
+![Right atrial pressure](Right%20atrial%20pressure.jpg)
 
 `Pra` follows a similar pattern, decreasing from 4.0 mmHg to around 2.88 mmHg during hemorrhage, then slightly recovering to around 2.93 mmHg.
 
 ### 4. Cardiac Output
-![Cardiac output](Cardiac output.jpg)
+![Cardiac output](Cardiac%20output.jpg)
 
 Cardiac output decreases from about 83.3 ml/s to about 40.5 ml/s during hemorrhage, then recovers slightly and stabilizes near 42.3 ml/s. This confirms reduced venous return and reduced pump output under volume depletion.
 
 ### 5. Systemic Filling Volume
-![Systemic filling volume](Systemic filling Volume.jpg)
+![Systemic filling volume](Systemic%20filling%20Volume.jpg)
 
 Total systemic filling volume decreases from approximately 1080 ml to approximately 680 ml, matching the imposed 400 ml blood loss. After `t = 60 s`, the volume remains constant because the perturbation returns to zero.
 
