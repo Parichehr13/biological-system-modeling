@@ -1,4 +1,4 @@
-# Exercise 01 Report
+# Exercise 01
 
 ## Title
 First-Order Electrophysiological Membrane Model: Analytical and Numerical Simulation
