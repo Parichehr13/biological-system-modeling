@@ -18,9 +18,3 @@ Each exercise folder includes:
 8. **Exercise 08**: CO2/O2 gas exchange and ventilatory control
 9. **Exercise 09**: Nonlinear dynamics and chaos (Lorenz and Rossler)
 10. **Exercise 10**: Hodgkin-Huxley neuron model and repetitive spiking
-
-1. Run the target exercise script.
-2. Save/update figures in that exercise's `figures/` folder.
-3. Update `Report.md` to match the latest results.
-4. Keep filenames and figure references stable to preserve README/report links.
-
