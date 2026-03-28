@@ -1,12 +1,5 @@
 # Biological Systems Modeling (MATLAB)
 
-This repository contains MATLAB exercises for the **Biological Systems Modeling** course, focused on mathematical and computational models of physiological systems.
-
-Each exercise folder includes:
-- MATLAB implementation files (`.m`)
-- A concise technical report (`Report.md`)
-- A `figures/` directory with plots used in the report
-
 ## Exercise Topics
 1. **Exercise 01**: First-order electrophysiological membrane model
 2. **Exercise 02**: Systemic circulation without control under hemorrhage
